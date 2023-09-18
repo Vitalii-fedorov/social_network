@@ -6,7 +6,6 @@ import Dialogs from './Comps/Dialogs/Dialogs';
 import {Routes, Route} from "react-router-dom";
 
 const App = (props) => {
-//dskflodjgkofsdhgjif
     return (
         <div className="App">
             <Header />
