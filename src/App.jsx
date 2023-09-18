@@ -6,12 +6,14 @@ import Dialogs from './Comps/Dialogs/Dialogs';
 import {Routes, Route} from "react-router-dom";
 
 const App = (props) => {
+//dskflodjgkofsdhgjif
     return (
         <div className="App">
             <Header />
             <div className='Gridd'>
                 <NavBar />
                 <Routes>
+                    {/* eslint-disable-next-line react/prop-types */}
                     <Route path={'/'} element={<Profile />} />
                     {/* eslint-disable-next-line react/prop-types */}
                     <Route path={'/dialogs'} element={<Dialogs dialogsData={props.state.dialogsPage.dialogsData} />} />
