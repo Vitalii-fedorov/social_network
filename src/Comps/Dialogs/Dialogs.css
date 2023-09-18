@@ -1,0 +1,52 @@
+.Dialogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    background-color: #242424;
+    height: 45em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+.dialogs1 {
+    height: 93%;
+    width: 25%;
+    border-right: 1px solid silver;
+}
+.dialogs2 {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.profiled {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90%;
+    list-style-type: none;
+}
+.message {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+.message img {
+    display: block;
+    width: 4em;
+    height: 4.375em;
+}
+.text-message {
+    display: flex;
+    align-items: center;
+    width: 40em;
+    margin-left: 1em;
+    background-color: #DBE9D3;
+    border: none;
+    border-radius: 10px;
+}
+.text-message span {
+    margin-left: 1em;
+    color: #000;
+}

@@ -1,0 +1,52 @@
+.Posts {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 10em;
+    justify-self: flex-end;
+}
+.Posts span {
+    margin-left: 1em;
+    font-size: 1.2em;
+    align-self: flex-start;
+}
+.Posts textarea {
+    width: 98%;
+    color: #191919;
+    font-size: 1.2em;
+    height: 4.5em;
+    resize: none;
+    background-color: #DBE9D3;
+    border: none;
+    padding-left: 0.5em;
+}
+.Posts textarea::placeholder {
+    color: #909090;
+}
+.Posts button {
+    background-color: #6A994D;
+    color: #191919;
+    border-radius: 5px;
+    border-style: none;
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.Posts button:hover {
+    background-color: #dbe9d3;
+}
+.Posts button:active {
+    background-color: #cad9bf;
+}
+.Posts button b {
+    color: #191919;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 1em;
+}

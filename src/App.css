@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  color: #f6f8f7;
+}
+
+body {
+  background: #191919;
+  color: antiquewhite;
+}
+.App {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.Gridd {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-column-gap: 1em;
+}
+
+
+/* --text: #f6f8f7;
+--background: #191919;
+--primary-button: #6a994d;
+--secondary-button: #dbe9d3;
+--accent: #76aa55; */
