@@ -1,3 +1,5 @@
+import {rerenderEntireTree} from "../render.jsx";
+
 let state = {
     dialogsPage: {dialogsData: [
         {id: 1, name: 'Pavlo'},
@@ -9,4 +11,6 @@ let state = {
         {id: 7, name: 'Oleksandr'}]
 }}
 
+
+rerenderEntireTree();
 export default state

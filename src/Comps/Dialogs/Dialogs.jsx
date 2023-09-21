@@ -32,11 +32,13 @@ const Dialogs = (props) => {
             </ul>
             </div>
             <div className="dialogs2">
-            <div className="message"><img src="/assets/guy.png" alt="guy"/><div className="text-message"><span>{messagesData[0].message}</span></div></div>
+            <div className="messages"><div className="message"><img src="/assets/guy.png" alt="guy"/><div className="text-message"><span>{messagesData[0].message}</span></div></div>
                 <div className="message"><img src='/assets/cat.png' alt="cat" /><div className="text-message"><span>{messagesData[1].message}</span></div></div>
             <div className="message"><img src="/assets/guy.png" alt="guy"/><div className="text-message"><span>{messagesData[2].message}</span></div></div>
-            <div className="message"><img src='/assets/cat.png' alt="cat" /><div className="text-message"><span>{messagesData[3].message}</span></div></div>
+            <div className="message"><img src='/assets/cat.png' alt="cat" /><div className="text-message"><span>{messagesData[3].message}</span></div></div></div>
+                <textarea name="" cols="80" rows="5"></textarea>
             </div>
+
     </div>
     )
 }

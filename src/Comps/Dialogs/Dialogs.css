@@ -17,8 +17,20 @@
     border-right: 1px solid silver;
 }
 .dialogs2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-top: 1em;
     padding-left: 1em;
+    padding-bottom: 4em;
+}
+.dialogs2 textarea {
+    resize: none;
+    width: 55em;
+}
+.messages {
+    display: flex;
+    flex-direction: column;
 }
 .profiled {
     display: flex;
