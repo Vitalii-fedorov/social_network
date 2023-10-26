@@ -2,11 +2,18 @@ import './Dialogs.css';
 import {NavLink} from "react-router-dom";
 
 const DialogItem = (props) => {
-    return (<div>
+    return (
+        <div>
             {/* eslint-disable-next-line react/prop-types */}
-            <li><h3><NavLink to={"/dialogs/" + props.id}>{props.name}</NavLink></h3></li>
-        </div>
+            <li>
+                <h3>
+                <NavLink to={"/dialogs/" + props.id}>
+                    {props.name}
+                </NavLink>
+            </h3>
+            </li>
 
+        </div>
     )
 }
 
@@ -32,10 +39,22 @@ const Dialogs = (props) => {
             </ul>
             </div>
             <div className="dialogs2">
-            <div className="message"><img src="/assets/guy.png" alt="guy"/><div className="text-message"><span>{messagesData[0].message}</span></div></div>
-                <div className="message"><img src='/assets/cat.png' alt="cat" /><div className="text-message"><span>{messagesData[1].message}</span></div></div>
-            <div className="message"><img src="/assets/guy.png" alt="guy"/><div className="text-message"><span>{messagesData[2].message}</span></div></div>
-            <div className="message"><img src='/assets/cat.png' alt="cat" /><div className="text-message"><span>{messagesData[3].message}</span></div></div>
+            <div className="message">
+                <img src="/assets/guy.png" alt="guy"/>
+                <div className="text-message"><span>{messagesData[0].message}</span></div>
+            </div>
+                <div className="message">
+                    <img src='/assets/cat.png' alt="cat" />
+                    <div className="text-message"><span>{messagesData[1].message}</span></div>
+                </div>
+            <div className="message">
+                <img src="/assets/guy.png" alt="guy"/>
+                <div className="text-message"><span>{messagesData[2].message}</span></div>
+            </div>
+            <div className="message">
+                <img src='/assets/cat.png' alt="cat" />
+                <div className="text-message"><span>{messagesData[3].message}</span></div>
+            </div>
             </div>
     </div>
     )

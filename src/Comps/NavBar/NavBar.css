@@ -20,6 +20,3 @@ a {
 a:hover {
     background-color: #dbe9d3;
 }
-.NavBar a:focus {
-    color: red;
-}

@@ -19,6 +19,7 @@
     background-color: #DBE9D3;
     border: none;
     padding-left: 0.5em;
+    border-radius: 5px;
 }
 .Posts textarea::placeholder {
     color: #909090;
@@ -36,10 +37,10 @@
     cursor: pointer;
 }
 .Posts button:hover {
-    background-color: #dbe9d3;
+    background-color: #cad9bf;
 }
 .Posts button:active {
-    background-color: #cad9bf;
+    background-color: #dbe9d3;
 }
 .Posts button b {
     color: #191919;
@@ -49,4 +50,10 @@
     justify-content: flex-end;
     width: 100%;
     padding-right: 1em;
+}
+.poststyle {
+    width: 50rem;
+    height: 5rem;
+    border: 2px solid white;
+    color: wheat;
 }

@@ -17,24 +17,12 @@ const NavBar = () => {
                 };
             }}>Messages</NavLink>
 
-            <NavLink to="" style={({ isActive }) => {
-                return {
-                    color: isActive ? "#000000" : ""
-                };
-            }}>News</NavLink>
+            <NavLink to="">News</NavLink>
 
-                <NavLink to="" style={({ isActive }) => {
-                    return {
-                        color: isActive ? "#000000" : ""
-                    };
-                }}>Music</NavLink>
+                <NavLink to="">Music</NavLink>
                 <br />
                 <br />
-                    <NavLink to="" style={({ isActive }) => {
-                        return {
-                            color: isActive ? "#000000" : ""
-                        };
-                    }}>Settings</NavLink>
+                    <NavLink to="">Settings</NavLink>
 
         </div>
     )
