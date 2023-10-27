@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
+    gap: 1rem;
     background-color: #6A994D;
     height: 45em;
     padding-top: 0.5em;
@@ -9,14 +10,17 @@
     margin-top: 1em;
 }
 .NavBar h3 {
-    font-size: 1.2em;
+
     color: #191919;
 }
-a {
+.NavBar a {
     padding-left: 0.4em;
+    padding-top: 0.4em;
     width: 92%;
     text-decoration: none;
+    font-size: 1.4em;
 }
 a:hover {
     background-color: #dbe9d3;
+    color: #000;
 }
