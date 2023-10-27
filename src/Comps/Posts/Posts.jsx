@@ -43,7 +43,7 @@ const Posts = () => {
                         ></textarea>
             <div className="btn"><button
                 onClick={addpost}>
-                <b> Send </b>
+                <b> Send</b>
             </button></div>
 
         </div>
