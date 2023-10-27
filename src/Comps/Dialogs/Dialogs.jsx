@@ -31,8 +31,10 @@ const Dialogs = (props) => {
         {id: 2, message: 'No, im not!'},
         {id: 3, message: 'Yes you are.'},
         {id: 4, message: 'Fine, im gay..'}]
+
     return (
         <div className="Dialogs">
+
             <div className="dialogs1"><h2>Dialogs</h2>
             <ul className="profiled">
                 {dialogsElements}
@@ -56,6 +58,7 @@ const Dialogs = (props) => {
                 <div className="text-message"><span>{messagesData[3].message}</span></div>
             </div>
             </div>
+
     </div>
     )
 }
