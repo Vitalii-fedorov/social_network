@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    background-color: #6A994D;
+    background-color: #0C1B36;
     height: 45em;
     padding-top: 0.5em;
     padding-left: 1em;
@@ -12,11 +12,22 @@
     font-size: 1.2em;
     color: #191919;
 }
-a {
-    padding-left: 0.4em;
-    width: 92%;
-    text-decoration: none;
+
+#navBar {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
 }
-a:hover {
-    background-color: #dbe9d3;
+#navBar a.active {
+    padding: 1em;
+    color: #42E2B8;
+}
+#navBar a {
+    border-bottom: 1px solid silver;
+    text-decoration: none;
+    padding-left: 0.4em;
+    padding: 1em;
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 100%;
 }

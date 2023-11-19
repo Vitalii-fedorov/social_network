@@ -2,8 +2,10 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 2rem;
     justify-self: flex-end;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 }
 .Posts span {
     margin-left: 1em;
@@ -11,30 +13,35 @@
     align-self: flex-start;
 }
 .Posts textarea {
-    width: 98%;
+    width: 94%;
     color: #191919;
     font-size: 1.2em;
     height: 4.5em;
     resize: none;
-    background-color: #DBE9D3;
+    background-color: #d9d8d8;
     border: none;
     padding-left: 0.5em;
     border-radius: 5px;
+    font-weight: 600;
+    margin-left: 1%;
+    font-size: 1.2rem;
 }
 .Posts textarea::placeholder {
     color: #909090;
+    font-size: 1.2rem;
 }
 .Posts button {
-    background-color: #6A994D;
+    background-color: #42E2B8;
     color: #191919;
     border-radius: 5px;
     border-style: none;
-    width: 5em;
-    height: 2em;
+    width: 7rem;
+    height: 2rem;
     text-align: center;
     text-decoration: none;
     margin-top: 1em;
     cursor: pointer;
+    font-size: 1.1rem;
 }
 .Posts button:hover {
     background-color: #cad9bf;
@@ -49,11 +56,18 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    padding-right: 1em;
+    padding-right: 3%;
 }
 .poststyle {
-    width: 50rem;
-    height: 5rem;
+    display: flex;
+    align-self: center;
+    margin-left: 1%;
+    width: 94%;
+    font-size: 1.1rem;   
+    margin-bottom: 1rem;
+    padding: 0.5rem;
     border: 2px solid white;
-    color: wheat;
+    border-radius: 5px;
+    color: black;
+    background: white;
 }

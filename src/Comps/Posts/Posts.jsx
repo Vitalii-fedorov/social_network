@@ -2,8 +2,7 @@ import './Posts.css';
 import React, { useState } from 'react';
 
 const postData = [
-    {id: 1, postText: 'Fuck You!'},
-
+    {id: 1, postText: 'Kizzma'},
 ]
 
 const PostItem = (props) => {

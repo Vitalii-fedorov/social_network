@@ -4,25 +4,20 @@ import {NavLink} from "react-router-dom";
 const NavBar = () => {
     return(
         <div className="NavBar">
+            <nav id="navBar">
+            <NavLink to="/">Profile</NavLink>
 
-            <NavLink to="/" style={({ isActive }) => {
-                return {
-                    color: isActive ? "#000000" : ""
-                };
-            }}>Profile</NavLink>
 
-            <NavLink to="/dialogs" style={({ isActive }) => {
-                return {
-                    color: isActive ? "#000000" : ""
-                };
-            }}>Messages</NavLink>
+                <NavLink to="/dialogs">Messages</NavLink>
 
-            <NavLink to="">News</NavLink>
 
-                <NavLink to="">Music</NavLink>
+            <NavLink to="/News">News</NavLink>
+
+            <NavLink to="/Music">Music</NavLink>
                 <br />
                 <br />
-                    <NavLink to="">Settings</NavLink>
+            <NavLink to="/Settings">Settings</NavLink>
+            </nav>
 
         </div>
     )

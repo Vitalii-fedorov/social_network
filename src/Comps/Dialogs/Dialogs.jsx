@@ -27,38 +27,34 @@ const Dialogs = (props) => {
         <DialogItem key={index} name={el.name} id={el.id} />)
 
     let messagesData = [
-        {id: 1, message: 'Are you gay?'},
-        {id: 2, message: 'No, im not!'},
-        {id: 3, message: 'Yes you are.'},
-        {id: 4, message: 'Fine, im gay..'}]
+        {id: 1, message: 'When I run 40 miles He runs 80'},
+        {id: 2, message: 'His name is Kizzma'},
+        {id: 3, message: 'Who is Kizzma?'}]
 
     return (
         <div className="Dialogs">
 
-            <div className="dialogs1"><h2>Dialogs</h2>
+            <div className="dialogs1">
+                <h2>Dialogs</h2>
             <ul className="profiled">
                 {dialogsElements}
             </ul>
             </div>
             <div className="dialogs2">
             <div className="message">
-                <img src="/assets/guy.png" alt="guy"/>
+                <img src="/assets/Phottoo2.jpg" alt="me"/>
                 <div className="text-message"><span>{messagesData[0].message}</span></div>
             </div>
                 <div className="message">
-                    <img src='/assets/cat.png' alt="cat" />
+                    <img src='/assets/Phottoo2.jpg' alt="cat" />
                     <div className="text-message"><span>{messagesData[1].message}</span></div>
                 </div>
             <div className="message">
-                <img src="/assets/guy.png" alt="guy"/>
+                <img src="/assets/cat.png" alt="guy"/>
                 <div className="text-message"><span>{messagesData[2].message}</span></div>
             </div>
-            <div className="message">
-                <img src='/assets/cat.png' alt="cat" />
-                <div className="text-message"><span>{messagesData[3].message}</span></div>
-            </div>
-            </div>
-
+        </div>
+        
     </div>
     )
 }

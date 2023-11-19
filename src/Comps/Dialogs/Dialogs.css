@@ -5,7 +5,7 @@
     justify-content: normal;
     align-items: normal;
     align-content: normal;
-    background-color: #242424;
+    background-color: #0C1B36;
     height: 45em;
     padding-top: 0.5em;
     padding-left: 1em;
@@ -15,6 +15,14 @@
     height: 93%;
     width: 25%;
     border-right: 1px solid silver;
+}
+a {
+    text-decoration: none;
+    /* border-bottom: 1px solid silver; */
+} 
+.dialogs1 h2 {
+    color: #42E2B8;
+    font-size: 1.2rem;
 }
 .dialogs2 {
     padding-top: 1em;
@@ -34,19 +42,19 @@
 }
 .message img {
     display: block;
-    width: 4em;
-    height: 4.375em;
+    width: 4rem;
+    height: 4rem;
 }
 .text-message {
     display: flex;
     align-items: center;
-    width: 40em;
-    margin-left: 1em;
-    background-color: #DBE9D3;
+    margin-left: 1rem;
+    background-color: #e6e5e5;
     border: none;
     border-radius: 10px;
 }
 .text-message span {
-    margin-left: 1em;
+    margin-left: 1rem;
+    margin-right: 1rem;
     color: #000;
 }
