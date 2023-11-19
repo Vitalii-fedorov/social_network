@@ -27,6 +27,7 @@ a {
 .dialogs2 {
     padding-top: 1em;
     padding-left: 1em;
+    width: 70%;
 }
 .profiled {
     display: flex;
@@ -39,6 +40,7 @@ a {
     display: flex;
     flex-direction: row;
     margin-top: 1em;
+    width: 90%;
 }
 .message img {
     display: block;

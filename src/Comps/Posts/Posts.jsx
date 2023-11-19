@@ -36,13 +36,13 @@ const Posts = () => {
         <div className="Posts">
 
             <span>My posts</span> <br />
-            {postsElements}
+            <div className="postsElements">{postsElements}</div>
             <textarea placeholder="your news..." id="new-post"  value={newPostText}
                       onChange={(e) => setNewPostText(e.target.value)}
                         ></textarea>
             <div className="btn"><button
                 onClick={addpost}>
-                <b>Send</b>
+                <b> Send</b>
             </button></div>
 
         </div>

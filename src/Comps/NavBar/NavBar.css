@@ -9,10 +9,9 @@
     margin-top: 1em;
 }
 .NavBar h3 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: #191919;
 }
-
 #navBar {
     display: flex;
     flex-direction: column;
