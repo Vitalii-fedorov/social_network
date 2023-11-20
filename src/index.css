@@ -2,3 +2,98 @@ body {
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.05rem;
 }
+
+@media (min-width: 4100px) {
+  *{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 4100px) {
+  *{
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 3800px) {
+  *{
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 3500px) {
+  *{
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 3200px) {
+  *{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 2900px) {
+  *{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 2600px) {
+  *{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 2300px) {
+  *{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 2000px) {
+  *{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1700px) {
+  *{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1500px) {
+  *{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1279px) {
+    *{
+      font-size: 13px;
+    }
+    .App {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    *{
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .App {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    *{
+      font-size: 11px;
+    }
+  }

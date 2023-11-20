@@ -4,9 +4,9 @@
     align-items: flex-start;
     background-color: #0C1B36;
     height: 45em;
-    padding-top: 0.5em;
-    padding-left: 1em;
-    margin-top: 1em;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
 }
 .NavBar h3 {
     font-size: 1.2rem;
@@ -22,7 +22,7 @@
     color: #42E2B8;
 }
 #navBar a {
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid #fff;
     text-decoration: none;
     padding-left: 0.4em;
     padding: 1em;

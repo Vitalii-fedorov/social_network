@@ -5,13 +5,11 @@ const DialogItem = (props) => {
     return (
         <div>
             {/* eslint-disable-next-line react/prop-types */}
-            <li>
-                <h3>
+             <h3>
                 <NavLink to={"/dialogs/" + props.id}>
                     {props.name}
                 </NavLink>
             </h3>
-            </li>
 
         </div>
     )
@@ -36,21 +34,21 @@ const Dialogs = (props) => {
 
             <div className="dialogs1">
                 <h2>Dialogs</h2>
-            <ul className="profiled">
-                {dialogsElements}
-            </ul>
+{/*             <ul className="profiled">
+ */}                {dialogsElements}
+            {/* </ul> */}
             </div>
             <div className="dialogs2">
             <div className="message">
-                <img src="/assets/Phottoo2.jpg" alt="me"/>
+                <img src="/assets/Phottoo2.jpg" alt="me" />
                 <div className="text-message"><span>{messagesData[0].message}</span></div>
             </div>
                 <div className="message">
-                    <img src='/assets/Phottoo2.jpg' alt="cat" />
+                    <img src='/assets/Phottoo2.jpg' alt="me" />
                     <div className="text-message"><span>{messagesData[1].message}</span></div>
                 </div>
             <div className="message">
-                <img src="/assets/cat.png" alt="guy"/>
+                <img src="/assets/cat.png" alt="cat" />
                 <div className="text-message"><span>{messagesData[2].message}</span></div>
             </div>
         </div>

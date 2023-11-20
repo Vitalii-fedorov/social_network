@@ -13,16 +13,14 @@ export default function App (props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const dataRes = await fetch('http://localhost:8080/state.json');
+                const dataRes = await fetch('https://raw.githubusercontent.com/Vitalii-fedorov/social_network/main/data/state.json');
                 const jsonData = await dataRes.json();
-
                 setData(jsonData);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
         fetchData();
-
     }, []);
 
     return (
