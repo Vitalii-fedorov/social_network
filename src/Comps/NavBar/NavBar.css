@@ -1,11 +1,10 @@
 .NavBar {
     display: flex;
     flex-flow: column wrap;
-    align-items: flex-start;
+    align-items: center;
     background-color: #0C1B36;
     height: 45em;
     padding-top: 0.5rem;
-    padding-left: 1rem;
     margin-top: 1rem;
 }
 .NavBar h3 {
@@ -18,14 +17,12 @@
     width: 94%;
 }
 #navBar a.active {
-    padding: 1em;
     color: #42E2B8;
 }
 #navBar a {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid silver;
     text-decoration: none;
-    padding-left: 0.4em;
-    padding: 1em;
+    padding: 1.5rem 1rem;
     font-weight: 900;
     font-size: 1.2rem;
     width: 100%;

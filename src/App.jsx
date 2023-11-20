@@ -34,7 +34,7 @@ export default function App (props) {
                     {/* eslint-disable-next-line react/prop-types */}
                     <Route path={'/dialogs'} element={<Dialogs dialogsData={data ? data.dialogsPage.dialogsData : []} />} />
                     {/* eslint-disable-next-line react/prop-types */}
-                    <Route path={'/dialogs/:id'} element={<Dialogs dialogsData={data ? data.dialogsPage.dialogsData : []} />} />
+                    {<Route path={'/dialogs/*'} element={<Dialogs dialogsData={data ? data.dialogsPage.dialogsData : []} />} />}
                 </Routes>
             </div>
         </div>

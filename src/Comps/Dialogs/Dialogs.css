@@ -7,42 +7,37 @@
     align-content: normal;
     background-color: #0C1B36;
     height: 45em;
-    padding-top: 0.4rem;
-    padding-left: 1.9rem;
     margin-top: 1em;
 }
 .dialogs1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 94%;
+    align-items: center;
     width: 17.5%;
     min-width: 7rem;
     border-right: 1px solid silver;
-    list-style-type: none;
+    padding-top: 0.5rem;
 }
-.dialogs1 a {
-    font-size: 1.2rem;
+#dialogs__nav {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+}
+#dialogs__nav a {
+    border-bottom: 1px solid silver;
     text-decoration: none;
-    /* border-bottom: 1px solid silver; */
+    padding: 1.5rem 1rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 100%;
 } 
-.dialogs1 h2 {
-    color: white;
-    font-size: 0.95rem;
-    font-weight: 400;
-    margin-left: -6%;
+#dialogs__nav a.active {
+    color: #42E2B8;
 }
 .dialogs2 {
     padding-top: 1em;
     padding-left: 1em;
     width: 70%;
-}
-.profiled {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 90%;
-    list-style-type: none;
 }
 .message {
     display: flex;
@@ -68,3 +63,6 @@
     color: #000;
     font-size: 0.9rem;
 }
+.hidden {
+    display: none;
+  }

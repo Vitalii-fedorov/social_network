@@ -2,7 +2,7 @@ import './Posts.css';
 import React, { useState } from 'react';
 
 const postData = [
-    {id: 1, postText: 'Kizzma'},
+    {id: 1, postText: 'https://github.com/Vitalii-fedorov'},
 ]
 
 const PostItem = (props) => {
