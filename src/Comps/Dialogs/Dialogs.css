@@ -75,25 +75,3 @@
     font-size: 1.5rem;
     color: silver;
   } 
-
-  /* .choosing {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    font-size: 1.2rem;
-    color: #fff;
-    background-color: #0C1B36;
-    opacity: 0.5;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .choosing.hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  .choosing:not(.hidden) {
-    opacity: 1;
-    pointer-events: auto;
-  } */

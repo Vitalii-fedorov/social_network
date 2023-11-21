@@ -7,7 +7,7 @@ const DialogItem = (props) => {
   return (
     <>
       <NavLink
-        to={'message' + props.id}
+        to={`/dialogs/message${props.id}`}
         activeclassname="active"
       >
         {props.name}
@@ -20,7 +20,7 @@ const Dialogs = (props) => {
 
   const location = useLocation();
 
-  const isDialogsRoute = location.pathname === '/dialogs/*';
+  const isDialogsRoute = location.pathname === '/dialogs';
 
   const dialogsData = props.dialogsData;
 
