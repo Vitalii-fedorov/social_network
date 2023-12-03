@@ -16,7 +16,6 @@
     width: 17.5%;
     min-width: 7rem;
     border-right: 1px solid silver;
-    padding-top: 0.5rem;
 }
 #dialogs__nav {
     display: flex;

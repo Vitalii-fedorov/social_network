@@ -1,7 +1,8 @@
 import React from 'react';
-import './Dialogs.css';
+import { NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import Contact from './Contacts/Contact';
-import { NavLink, Routes, Route, useLocation } from 'react-router-dom';
+import './Dialogs.css';
+import { useStore } from '../../storage';
 
 const DialogItem = (props) => {
   return (
@@ -44,6 +45,10 @@ const Dialogs = (props) => {
       element={<Contact dialogsData={props.dialogsData} messagesData={messagesData} />}
     />
   ));
+
+  const dialogsPage = useStore((state) => state.dialogsPage)
+
+  console.log(dialogsPage);
 
   return (
     <div className="Dialogs">
