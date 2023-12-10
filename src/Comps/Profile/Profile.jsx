@@ -32,7 +32,6 @@ const Cat = styled.div`
     height: 9em;
     margin-left: 1em;
     margin-top: 1em;
-    
 `
 
 const Profile = () => {
