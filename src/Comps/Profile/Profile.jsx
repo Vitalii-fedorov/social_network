@@ -25,7 +25,7 @@ const Userprofile = styled.div`
 `
 
 const Cat = styled.div`
-    background-image: url('../../../dist/assets/Phottoo2.jpg');
+    background-image: url('/assets/Phottoo2.jpg');
     background-size: cover;
     float: left;
     width: 9rem;
