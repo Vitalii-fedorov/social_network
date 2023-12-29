@@ -16,3 +16,39 @@ body {
   grid-template-columns: 1fr 5fr;
   grid-column-gap: 1em;
 }
+
+
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.25s ease-in-out;
+}
+
+.menu-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #04142F;
+  transform: translateX(-100%);
+  transition: transform 0.25s ease-in-out;
+  z-index: 10;
+}
+
+.menu.active {
+  transform: translateX(0) !important;
+}
+
+.menu-nav {
+  transform: translateX(0) !important;
+}

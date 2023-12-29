@@ -1,0 +1,96 @@
+.ProfileBlock {
+    margin-top: 1rem;
+    background-color: #0C1B36;
+    width: 100%;
+    height: 45em;
+}
+
+.Userprofile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 40%;
+}
+
+.Userprofile img {
+    background-image: url('/assets/Phottoo2.jpg');
+    background-size: cover;
+    float: left;
+    width: 9rem;
+    height: 9em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.UserProfileInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.UserProfileInfo h3 {
+    font-size: 1.2em;
+}
+
+.UserProfileInfo ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.SocialMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: end;
+    width: 100%;
+}
+
+.SocialIconA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.socicon1 {
+    background-image: url('/assets/in2.png');
+    background-size: cover;
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-self: center;
+}
+
+.socicon1:hover {
+    background-image: url('/assets/in.png');
+}
+
+.socicon2 {
+    background-image: url('/assets/tg2.png');
+    background-size: cover;
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-self: center;
+}
+
+.socicon2:hover {
+    background-image: url('/assets/tg.png');
+}
+
+.socicon3 {
+    background-image: url('/assets/gh5.png');
+    background-size: cover;
+    display: block;
+    width: 2.3rem;
+    height: 2.3em;
+    align-self: center;
+}
+
+.socicon3:hover {
+    background-image: url('/assets/gh4.png');
+    
+}

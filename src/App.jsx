@@ -3,7 +3,7 @@ import Header from './Comps/Header/Header';
 import NavBar from './Comps/NavBar/NavBar';
 import Profile from './Comps/Profile/Profile';
 import Dialogs from './Comps/Dialogs/Dialogs';
-import {Routes, Route} from "react-router-dom";
+import {Routes, Route, NavLink} from "react-router-dom";
 import {useEffect, useState} from "react";
 import { useStore } from './storage.js';
 
@@ -28,9 +28,22 @@ export default function App (props) {
         fetchData();
     }, []);
 
+    //burger-menu
+    
+
     return (
         <div className="App">
             <Header />
+
+            <div className="menu">
+        <nav className="menu-nav">
+            <li><NavLink to="/">Profile</NavLink></li>
+            <li><NavLink to="/dialogs">Messages</NavLink></li>
+            <li><NavLink to="/News">News</NavLink></li>
+            <li><NavLink to="/Settings">Settings</NavLink></li>
+        </nav>
+    </div>
+
             <div className='Gridd'>
                 <NavBar />
                 <Routes>

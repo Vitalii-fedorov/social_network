@@ -63,13 +63,17 @@ body {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1543px) {
   *{
     font-size: 14px;
   }
+  .App {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1347px) {
     *{
       font-size: 13px;
     }
@@ -79,9 +83,18 @@ body {
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1174px) {
+    .Userprofile {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 947px) {
     *{
       font-size: 12px;
+    }
+    .Userprofile {
+      width: 60%;
     }
   }
 
@@ -95,5 +108,20 @@ body {
   @media (max-width: 700px) {
     *{
       font-size: 11px;
+    }
+    .App {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    .menu-btn {
+      display: block;
+    }
+    .Gridd {
+      display: grid;
+      grid-template-columns: 0 5fr;
+      grid-column-gap: 0;
+    }
+    .Userprofile {
+      width: 95%;
     }
   }

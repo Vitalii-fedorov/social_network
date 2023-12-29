@@ -1,6 +1,7 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 1em;
     background-color: #0C1B36;
     width: 100%;
@@ -10,4 +11,50 @@ header img {
     height: 100%;
     width: auto;
     margin-left: 0em;
+}
+
+.menu-btn {
+    display: none;
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    z-index: 5;
+    outline: none;
+    background: transparent;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    width: 2rem;
+    height: 0.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    transition: all 0.25s;
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% + 0.7rem);
+}
+
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% - 0.7rem);
+}
+
+.menu-btn.active span:first-of-type {
+    opacity: 0;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 50%;
+}
+
+.menu-btn.active span:nth-of-type(3) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    top: 50%;
 }
