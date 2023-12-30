@@ -28,16 +28,25 @@ export default function App () {
         fetchData();
     }, []);
 
+    
+    const handleNavLinkClick = () => {
+        const menu = document.querySelector('.menu');
+        menu.classList.remove('active');
+        const menuBtn = document.querySelector('.menu-btn');
+        menuBtn.classList.remove('active');
+        console.log('Menu button NOT clicked');
+    };
+
     return (
         <div className="App">
             <Header />
 
             <div className="menu">
         <nav className="menu-nav">
-            <li><NavLink to="/">Profile</NavLink></li>
-            <li><NavLink to="/dialogs">Messages</NavLink></li>
-            <li><NavLink to="/News">News</NavLink></li>
-            <li><NavLink to="/Settings">Settings</NavLink></li>
+            <li><NavLink to="/" onClick={handleNavLinkClick}>Profile</NavLink></li>
+            <li><NavLink to="/dialogs" onClick={handleNavLinkClick}>Messages</NavLink></li>
+            <li><NavLink to="/News" onClick={handleNavLinkClick}>News</NavLink></li>
+            <li><NavLink to="/Settings" onClick={handleNavLinkClick}>Settings</NavLink></li>
         </nav>
     </div>
 

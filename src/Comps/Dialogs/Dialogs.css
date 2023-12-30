@@ -73,4 +73,5 @@
     width: 82.5%;
     font-size: 1.5rem;
     color: silver;
-  } 
+    align-self: center;
+  }

@@ -4,10 +4,10 @@ const Header = () => {
     const handleMenuClick = () => {
         const menuBtn = document.querySelector('.menu-btn');
         menuBtn.classList.toggle('active');
-        console.log('Menu button clicked');
         const menu = document.querySelector('.menu');
         menu.classList.toggle('active');
     };
+
 
     return (
         <div>
