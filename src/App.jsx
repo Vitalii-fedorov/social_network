@@ -7,7 +7,7 @@ import {Routes, Route, NavLink} from "react-router-dom";
 import {useEffect, useState} from "react";
 import { useStore } from './storage.js';
 
-export default function App (props) {
+export default function App () {
     const [data, setData] = useState(null);
 
     useEffect(() => {
@@ -27,9 +27,6 @@ export default function App (props) {
         };
         fetchData();
     }, []);
-
-    //burger-menu
-    
 
     return (
         <div className="App">

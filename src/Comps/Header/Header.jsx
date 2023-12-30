@@ -9,12 +9,6 @@ const Header = () => {
         menu.classList.toggle('active');
     };
 
-    /* const handleMenuClick = () => {
-        console.log('Menu button clicked');
-        const menu = document.querySelector('.menu');
-        menu.classList.toggle('active');
-    }; */
-
     return (
         <div>
             <header>
