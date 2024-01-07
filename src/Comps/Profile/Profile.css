@@ -56,7 +56,7 @@
 }
 
 .socicon1 {
-    background-image: url('/assets/in2.png');
+    background-image: url('https://i.imgur.com/UgtkbEY.png');
     background-size: cover;
     display: block;
     width: 2.5rem;
@@ -65,11 +65,11 @@
 }
 
 .socicon1:hover {
-    background-image: url('/assets/in.png');
+    background-image: url('https://i.imgur.com/CuM0gS0.png');
 }
 
 .socicon2 {
-    background-image: url('/assets/tg2.png');
+    background-image: url('https://i.imgur.com/Ock1LH7.png');
     background-size: cover;
     display: block;
     width: 2.5rem;
@@ -78,11 +78,11 @@
 }
 
 .socicon2:hover {
-    background-image: url('/assets/tg.png');
+    background-image: url('https://i.imgur.com/9jKVkl5.png');
 }
 
 .socicon3 {
-    background-image: url('/assets/gh5.png');
+    background-image: url('https://i.imgur.com/k5u09kQ.png');
     background-size: cover;
     display: block;
     width: 2.3rem;
@@ -91,6 +91,6 @@
 }
 
 .socicon3:hover {
-    background-image: url('/assets/gh4.png');
+    background-image: url('https://i.imgur.com/L5GY7AR.png');
     
 }
